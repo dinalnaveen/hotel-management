@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+
 :root {
   
 }
@@ -22,3 +25,4 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
