@@ -19,7 +19,7 @@ export default function Header() {
             <li className={`${styles.menuItem} cursor-pointer hover:scale-105`}>FAQs</li>
         </ul>
 
-        <div className='flex gap-10 items-center ml-[460px] mr-[60px] '>
+        <div className='flex gap-10 items-center ml-[465px] mr-[60px] '>
         <Image src='/flag2.png' alt='logo'
             width={40} height={30}/>
             <h3 className={`${styles.icon} cursor-pointer hover:scale-105`} >USD</h3>

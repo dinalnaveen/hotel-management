@@ -22,7 +22,7 @@ export default function Hero() {
       <div className='z-10 mt-50  top-0 left-0  '>
         <h2 className={styles.bookingTitle}>Search</h2>
         <div className='flex gap-2 items-center'>
-        <AiOutlineSearch className="w-6 h-6 text-[#545455cb]" />
+        <AiOutlineSearch className="w-6 h-6 text-[#545455cb] " />
         <input type="text" placeholder='Enter a destination' className={`${styles.bookingText}  w-[160px] py-[5px] outline-none placeholder-[#545455cd] placeholder-opacity-80  `}/>
         </div> 
       </div>
@@ -30,7 +30,7 @@ export default function Hero() {
       <div className='z-10 mt-50  top-0 left-0  '>
         <h2 className={styles.bookingTitle}>Check-In</h2>
         <div className='flex gap-2 items-center'>
-          <button className={`${styles.bookingText} flex gap-2 items-center  text-opacity-80 py-[5px] `}>Select date <BiSolidDownArrow className="w-3 h-3 text-[#545455cb]" /></button>
+          <button className={`${styles.bookingText} flex gap-2 items-center  text-opacity-80 py-[5px] `}>Select date <BiSolidDownArrow className="w-3 h-3 text-[#545455cb] hover:text-[#545455]" /></button>
         </div> 
       </div>
 
@@ -38,14 +38,14 @@ export default function Hero() {
       <div className='z-10 mt-50  top-0 left-0  '>
         <h2 className={styles.bookingTitle}>Check-Out</h2>
         <div className='flex gap-2 items-center'>
-          <button className={`${styles.bookingText} flex gap-2 items-center  text-opacity-80 py-[5px] `}>Select date <BiSolidDownArrow className="w-3 h-3 text-[#545455cb]" /></button>
+          <button className={`${styles.bookingText} flex gap-2 items-center  text-opacity-80 py-[5px] `}>Select date <BiSolidDownArrow className="w-3 h-3 text-[#545455cb] hover:text-[#545455]" /></button>
         </div> 
       </div>
 
       <div className='z-10 mt-50  top-0 left-0  '>
         <h2 className={styles.bookingTitle}>Adult</h2>
         <div className='flex gap-2 items-center'>
-          <button className={`${styles.bookingText} flex gap-2 items-center  text-opacity-80 py-[5px] `}>0<BiSolidDownArrow className="w-3 h-3 text-[#545455cb]" /></button>
+          <button className={`${styles.bookingText} flex gap-2 items-center  text-opacity-80 py-[5px] `}>0<BiSolidDownArrow className="w-3 h-3 text-[#545455cb] hover:text-[#545455]" /></button>
         </div> 
       </div>
 
@@ -53,13 +53,15 @@ export default function Hero() {
       <div className='z-10 mt-50  top-0 left-0  '>
         <h2 className={styles.bookingTitle}>Child</h2>
         <div className='flex gap-2 items-center'>
-          <button className={`${styles.bookingText} flex gap-2 items-center  text-opacity-80 py-[5px] `}>0<BiSolidDownArrow className="w-3 h-3 text-[#545455cb]" /></button>
+          <button className={`${styles.bookingText} flex gap-2 items-center  text-opacity-80 py-[5px] `}>0<BiSolidDownArrow className="w-3 h-3 text-[#545455cb] hover:text-[#545455]" /></button>
         </div> 
       </div>
 
       <div>
-      <IoFilterSharp className="w-6 h-6 text-[#545455]" />
+      <IoFilterSharp className="w-6 h-6 text-[#545455] hover:text-[#545455] hover:scale-105" />
       </div>
+
+    
 
       <div>
       <button className={`${styles.customButton}   py-[14px] px-4 rounded`}>
