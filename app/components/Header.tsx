@@ -19,10 +19,10 @@ export default function Header() {
             <li className={`${styles.menuItem} cursor-pointer hover:scale-105`}>FAQs</li>
         </ul>
 
-        <div className='flex gap-10 items-center ml-[465px] mr-[60px] '>
+        <div className='flex gap-10 items-center ml-[445px] mr-[60px] '>
         <Image src='/flag2.png' alt='logo'
             width={40} height={30}/>
-            <h3 className={`${styles.icon} cursor-pointer hover:scale-105`} >USD</h3>
+            <h3 className={`${styles.icon} cursor-pointer hover:scale-105`}>USD</h3>
             <button className={`${styles.btn} bg-transparent  py-2 px-8 border hover:border-transparent rounded`}>
             Login
             </button>
