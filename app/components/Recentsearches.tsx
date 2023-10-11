@@ -10,7 +10,7 @@ export default function RecentSearches() {
       
 <div className='grid grid-cols-3'>
     {Recent.map((item,index)=>(
-      <div className="card w-96 bg-base-100 shadow-xl p-3 hover:scale-105">
+      <div className="card w-96 bg-base-100 shadow-xl p-3 hover:bg-slate-100 rounded-lg cursor-pointer">
         <div className="flex items-center">
           <Image src={item.image} alt={item.name} width={81} height={81} />
           <div className="ml-4">
