@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import Recentsearches from './components/Recentsearches'
 import HotelDescription from './components/HotelDescription'
 import Offers from './components/Offers'
+import Recommended from './components/Recommended'
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Recentsearches/>
       <HotelDescription/>
       <Offers/>
+      <Recommended/>
     </div>
   )
 }
