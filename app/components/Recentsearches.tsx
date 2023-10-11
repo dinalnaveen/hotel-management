@@ -6,7 +6,7 @@ import Recent from '@/data/Recent';
 export default function RecentSearches() {
   return (
     <div className='w-[80%] mx-auto mt-[620px] '>
-      <h2 className={`${styles.title} text-[24px] opacity-80 mb-[10px]`}>Your recent searches</h2>
+      <h2 className={`${styles.title} text-[24px] opacity-80 mb-[20px]`}>Your recent searches</h2>
       
 <div className='grid grid-cols-3'>
     {Recent.map((item,index)=>(

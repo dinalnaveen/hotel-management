@@ -8,7 +8,7 @@ import Map from '@/public/Images/Map.png'
 
 export default function HotelDescription() {
   return (
-    <div className='grid grid-cols-2  w-[80%] mx-auto mt-[30px]'>
+    <div className='grid grid-cols-2  w-[80%] mx-auto mt-[40px]'>
         <div className='mt-[70px] '>
             <h2 className={`${styles.title} text-[30px] opacity-80 mb-[20px] text-center font-normal`}>Our Villas</h2>
             

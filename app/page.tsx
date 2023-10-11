@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Hero from './components/Hero'
 import Recentsearches from './components/Recentsearches'
 import HotelDescription from './components/HotelDescription'
+import Offers from './components/Offers'
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Hero/>
       <Recentsearches/>
       <HotelDescription/>
+      <Offers/>
     </div>
   )
 }
